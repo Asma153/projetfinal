@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CeramiArt - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+
+
+</head>
+<body class="con"> 
+    <header class="menu"> 
+        <img src="./img/logo.jpg" class="logo" alt="im" id="im">
+        <h1 class="menu">CeramiArt</h1>
+        <nav>
+            <ul>
+                <li><a class="menu-item" href="index.html">Accueil</a></li>
+                <li><a class="menu-item" href="about.html">Apropos</a></li>
+                <li><a class="menu-item" href="products.html">Produits</a></li>
+                <li><a class="menu-item" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Contactez-nous</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email"    required>
+                </div>
+                <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"  class="form-control"  required></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 CeramiArt. Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

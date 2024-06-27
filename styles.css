@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body {
+    font-family: "Dancing Script", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f0e0e0;
+}
+.photo-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 20px 0; 
+}
+.photo-container img {
+    max-width: 20%; 
+    height: auto; 
+    border: 2px solid #ddd; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover; 
+}
+
+header {
+    background-color: #008080;
+    color: white;
+    height:120px;
+    text-align: center;
+    padding : 10px; 
+    
+}
+.logo {
+    width: 120px;
+     float: left; 
+     border: 2px solid #e2a9a9; 
+    border-radius: 5px; 
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    margin: auto; 
+}
+h2 {
+    font-size: xx-large; color: rgb(239, 93, 93)
+}
+h3{
+    font-size: xx-large;
+}
+nav ul {
+    list-style: none;
+    padding: 0; 
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+}
+
+.menu{
+    font-size: xx-large; color: rgb(228, 131, 51);
+}
+
+.menu-item{
+    font-size: smaller;
+}
+
+.hero {
+    background: url('path/to/your/image.jpg') no-repeat center center/cover;
+    color: rgb(141, 102, 4);
+    text-align: center;
+    padding:20px 20px;
+    text-align: center;
+}
+
+.about, .products, .contact {
+    padding: 20px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+}
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.product-img{
+    width: 200px;
+}
+
+.product-item {
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    width: 200px;
+}
+
+footer {
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.p.footer {
+    margin-left: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin: 30px 0 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px;
+    background-color: #008080;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.about {
+    padding: 20px;
+    text-align: center;
+}
+
+.photo-paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.photo-paragraph img {
+    max-width: 30%; 
+    height: auto; 
+    border: 5px solid #a8a4a4; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    margin-right: 30px;  }
+    .con{
+        background-color: #f0e0e0;
+    }
+    .parag {
+        font-size: x-large;
+    }
